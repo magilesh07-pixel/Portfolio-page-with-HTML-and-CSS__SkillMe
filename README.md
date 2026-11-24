@@ -85,25 +85,21 @@ Portfolio/
 
 ---
 
-## 📝 Suggested LinkedIn Post Caption (Ready to Copy)
+## 📝 Official SkillMe LinkedIn Post Caption (Ready to Copy)
 
 ```text
 🚀 Excited to share my Week 1 milestone for 'Modern Interactive Portfolio & DevStudio' in the Full Stack Engineer Virtual Internship at @SkillMe!
 
 What I did in Week 1:
-• Built my personal portfolio website from scratch using semantic HTML5 and modern CSS3
-• Designed a clean, responsive layout with Flexbox and a consistent theme using CSS variables (:root)
-• Integrated my real-world projects: HealthGuard AI, National Agriculture Portal, and FreshGuard AI
-• Implemented smooth anchor scrolling, accessible markup, and interactive project card hover effects
+• Built my personal portfolio website from scratch using semantic HTML and CSS
+• Designed a clean layout with flexbox and a consistent colour theme using CSS variables
+• Structured the page into About, Projects and Contact sections with smooth in-page navigation
 
-🔗 Repository: https://github.com/magilesh07-pixel/Portfolio-page-with-HTML-and-CSS__SkillMe
-💻 GitHub Profile: https://github.com/magilesh07-pixel
-🔗 Featured Projects:
-• HealthGuard AI: https://github.com/magilesh07-pixel/healthguard-ai
-• National Agriculture Portal: https://github.com/magilesh07-pixel/NATIONAL-AGRICULTURE-PORTAL
-• FreshGuard AI: https://github.com/magilesh07-pixel/FreahGuard-AI
+Here's a quick demo of it running 👇
 
-Looking forward to Week 2: Responsive Layout & Project Cards!
+🔗 GitHub Repository: https://github.com/magilesh07-pixel/Portfolio-page-with-HTML-and-CSS__SkillMe
 
-#SkillMe #WebDevelopment #HTML5 #CSS3 #FullStack #Internship #Frontend #AI #Portfolio
+We're hiring tech interns. Apply now - https://www.skill-me-intern.in/apply?utm_source=linkedin&utm_medium=student_post&utm_campaign=week1&utm_content=web-dev
+
+#SkillMe #SkillMeInternship #WebDevelopment #BuildInPublic #LearningByDoing #TechInternship
 ```
