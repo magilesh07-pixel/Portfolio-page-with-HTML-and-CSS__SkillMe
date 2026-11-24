@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091e2b"/>
+      <stop offset="100%" stop-color="#0f3443"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="360" rx="12" fill="url(#hgGrad)"/>
+  
+  <!-- Browser Chrome Mockup -->
+  <rect x="40" y="30" width="520" height="300" rx="10" fill="#04121a" stroke="#155e75" stroke-width="1.5"/>
+  <circle cx="65" cy="52" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="52" r="5" fill="#eab308"/>
+  <circle cx="99" cy="52" r="5" fill="#22c55e"/>
+  <rect x="130" y="44" width="300" height="16" rx="8" fill="#082f49"/>
+  <text x="280" y="56" fill="#38bdf8" font-size="10" font-family="system-ui, sans-serif" text-anchor="middle">healthguard-ai.care/vitals</text>
+
+  <!-- Left: Diagnostic Summary -->
+  <rect x="65" y="80" width="280" height="230" rx="8" fill="#082f49" stroke="#0e7490" stroke-width="1"/>
+  <text x="85" y="110" fill="#f0fdfa" font-size="16" font-weight="bold" font-family="system-ui, sans-serif">HealthGuard AI Vitals</text>
+  <text x="85" y="128" fill="#99f6e4" font-size="11" font-family="system-ui, sans-serif">Real-time Biometrics &amp; AI Diagnostic</text>
+  
+  <!-- ECG Line graph -->
+  <rect x="85" y="145" width="240" height="70" rx="6" fill="#041824"/>
+  <path d="M90 180 L130 180 L140 160 L150 200 L160 150 L170 195 L180 180 L220 180 L230 165 L240 190 L250 180 L315 180" 
+        fill="none" stroke="url(#pulseGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Diagnostic Metrics -->
+  <rect x="85" y="230" width="70" height="45" rx="5" fill="#0e7490"/>
+  <text x="120" y="247" fill="#cffafe" font-size="9" text-anchor="middle" font-family="system-ui, sans-serif">HEART RATE</text>
+  <text x="120" y="265" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">72 bpm</text>
+
+  <rect x="170" y="230" width="70" height="45" rx="5" fill="#0e7490"/>
+  <text x="205" y="247" fill="#cffafe" font-size="9" text-anchor="middle" font-family="system-ui, sans-serif">SPO2</text>
+  <text x="205" y="265" fill="#ffffff" font-size="14" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">99%</text>
+
+  <rect x="255" y="230" width="70" height="45" rx="5" fill="#0e7490"/>
+  <text x="290" y="247" fill="#cffafe" font-size="9" text-anchor="middle" font-family="system-ui, sans-serif">RISK LEVEL</text>
+  <text x="290" y="265" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">Low (Optimal)</text>
+
+  <!-- Right: AI Assessment Panel -->
+  <rect x="365" y="80" width="170" height="230" rx="8" fill="#082f49" stroke="#0e7490" stroke-width="1"/>
+  <text x="380" y="106" fill="#f0fdfa" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">AI Diagnosis Feed</text>
+  <line x1="380" y1="116" x2="520" y2="116" stroke="#155e75" stroke-width="1"/>
+  
+  <rect x="380" y="128" width="140" height="42" rx="4" fill="#0c4a6e"/>
+  <text x="390" y="145" fill="#38bdf8" font-size="10" font-weight="bold" font-family="system-ui, sans-serif">Neural Symptom Check</text>
+  <text x="390" y="160" fill="#94a3b8" font-size="9" font-family="system-ui, sans-serif">No anomalies detected</text>
+
+  <rect x="380" y="180" width="140" height="42" rx="4" fill="#0c4a6e"/>
+  <text x="390" y="197" fill="#34d399" font-size="10" font-weight="bold" font-family="system-ui, sans-serif">Vitals Sync</text>
+  <text x="390" y="212" fill="#94a3b8" font-size="9" font-family="system-ui, sans-serif">100% telemetry verified</text>
+
+  <rect x="380" y="235" width="140" height="42" rx="4" fill="#047857"/>
+  <text x="450" y="260" fill="#ecfdf5" font-size="11" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">Healthy Status</text>
+</svg>

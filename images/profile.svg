@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="shirtGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="120" cy="120" r="110" fill="url(#bgGrad)" filter="url(#shadow)"/>
+  
+  <!-- Developer Avatar -->
+  <g id="avatar">
+    <!-- Body / Shoulders -->
+    <path d="M60 210 C 65 165, 95 155, 120 155 C 145 155, 175 165, 180 210 Z" fill="url(#shirtGrad)"/>
+    <!-- Collar -->
+    <polygon points="120,175 105,155 135,155" fill="#f8fafc"/>
+    <!-- Neck -->
+    <rect x="108" y="130" width="24" height="28" rx="4" fill="#fed7aa"/>
+    <!-- Head -->
+    <ellipse cx="120" cy="105" rx="36" ry="42" fill="#fed7aa"/>
+    <!-- Hair -->
+    <path d="M84 100 C 82 70, 100 55, 125 55 C 150 55, 158 70, 156 95 C 150 90, 140 88, 120 88 C 100 88, 90 92, 84 100 Z" fill="#1e1b4b"/>
+    <!-- Glasses -->
+    <rect x="94" y="96" width="22" height="15" rx="4" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+    <rect x="124" y="96" width="22" height="15" rx="4" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+    <line x1="116" y1="103" x2="124" y2="103" stroke="#0f172a" stroke-width="2.5"/>
+    <!-- Smile -->
+    <path d="M110 126 Q 120 134 130 126" stroke="#c2410c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Coding Laptop Accent -->
+    <rect x="75" y="198" width="90" height="24" rx="4" fill="#334155"/>
+    <rect x="80" y="202" width="80" height="16" rx="2" fill="#0284c7"/>
+    <path d="M106 210 L114 205 L106 200" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="118" y1="210" x2="126" y2="210" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

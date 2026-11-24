@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="agriGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </linearGradient>
+    <linearGradient id="cropGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="360" rx="12" fill="url(#agriGrad)"/>
+  
+  <!-- Browser Chrome Mockup -->
+  <rect x="40" y="30" width="520" height="300" rx="10" fill="#022c22" stroke="#166534" stroke-width="1.5"/>
+  <circle cx="65" cy="52" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="52" r="5" fill="#eab308"/>
+  <circle cx="99" cy="52" r="5" fill="#22c55e"/>
+  <rect x="130" y="44" width="300" height="16" rx="8" fill="#064e3b"/>
+  <text x="280" y="56" fill="#86efac" font-size="10" font-family="system-ui, sans-serif" text-anchor="middle">national-agri-portal.gov.in</text>
+
+  <!-- Left: Crop & Market Advisory -->
+  <rect x="65" y="80" width="280" height="230" rx="8" fill="#064e3b" stroke="#15803d" stroke-width="1"/>
+  <text x="85" y="110" fill="#f0fdf4" font-size="16" font-weight="bold" font-family="system-ui, sans-serif">National Agriculture Portal</text>
+  <text x="85" y="128" fill="#86efac" font-size="11" font-family="system-ui, sans-serif">Crop Yield, MSP Market Rates &amp; Weather</text>
+  
+  <!-- Market Rate Cards -->
+  <rect x="85" y="145" width="115" height="65" rx="6" fill="#022c22"/>
+  <text x="95" y="165" fill="#cbd5e1" font-size="10" font-family="system-ui, sans-serif">WHEAT (MSP)</text>
+  <text x="95" y="188" fill="#facc15" font-size="15" font-weight="bold" font-family="system-ui, sans-serif">₹2,275/q</text>
+  <text x="95" y="202" fill="#4ade80" font-size="9" font-family="system-ui, sans-serif">▲ +3.4% this week</text>
+
+  <rect x="210" y="145" width="115" height="65" rx="6" fill="#022c22"/>
+  <text x="220" y="165" fill="#cbd5e1" font-size="10" font-family="system-ui, sans-serif">PADDY (RICE)</text>
+  <text x="220" y="188" fill="#86efac" font-size="15" font-weight="bold" font-family="system-ui, sans-serif">₹2,183/q</text>
+  <text x="220" y="202" fill="#4ade80" font-size="9" font-family="system-ui, sans-serif">▲ +2.1% market</text>
+
+  <!-- Soil & Rainfall Status -->
+  <rect x="85" y="222" width="240" height="65" rx="6" fill="#052e16"/>
+  <text x="95" y="242" fill="#bbf7d0" font-size="11" font-weight="bold" font-family="system-ui, sans-serif">Agri-Weather Forecast &amp; Advisory</text>
+  <text x="95" y="260" fill="#94a3b8" font-size="10" font-family="system-ui, sans-serif">Soil Moisture: 68% (Favorable) • Rain: Light showers</text>
+  <text x="95" y="275" fill="#38bdf8" font-size="9" font-weight="bold" font-family="system-ui, sans-serif">Optimal season for sowing &amp; drip irrigation</text>
+
+  <!-- Right: Farmer Schemes & Portal Links -->
+  <rect x="365" y="80" width="170" height="230" rx="8" fill="#064e3b" stroke="#15803d" stroke-width="1"/>
+  <text x="380" y="106" fill="#f0fdf4" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Government Schemes</text>
+  <line x1="380" y1="116" x2="520" y2="116" stroke="#15803d" stroke-width="1"/>
+  
+  <rect x="380" y="128" width="140" height="42" rx="4" fill="#022c22"/>
+  <text x="390" y="145" fill="#a3e635" font-size="10" font-weight="bold" font-family="system-ui, sans-serif">PM-KISAN Yojana</text>
+  <text x="390" y="160" fill="#86efac" font-size="9" font-family="system-ui, sans-serif">Direct Farmer Benefit</text>
+
+  <rect x="380" y="180" width="140" height="42" rx="4" fill="#022c22"/>
+  <text x="390" y="197" fill="#a3e635" font-size="10" font-weight="bold" font-family="system-ui, sans-serif">Soil Health Card</text>
+  <text x="390" y="212" fill="#86efac" font-size="9" font-family="system-ui, sans-serif">Nutrient Testing Report</text>
+
+  <rect x="380" y="235" width="140" height="42" rx="4" fill="#15803d"/>
+  <text x="450" y="260" fill="#f0fdf4" font-size="11" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">Access Portal</text>
+</svg>

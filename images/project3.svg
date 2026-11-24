@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="360" rx="12" fill="url(#fgGrad)"/>
+  
+  <!-- Browser Chrome Mockup -->
+  <rect x="40" y="30" width="520" height="300" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1.5"/>
+  <circle cx="65" cy="52" r="5" fill="#ef4444"/>
+  <circle cx="82" cy="52" r="5" fill="#eab308"/>
+  <circle cx="99" cy="52" r="5" fill="#22c55e"/>
+  <rect x="130" y="44" width="300" height="16" rx="8" fill="#18181b"/>
+  <text x="280" y="56" fill="#34d399" font-size="10" font-family="system-ui, sans-serif" text-anchor="middle">freshguard-ai.vision/scanner</text>
+
+  <!-- Left: AI Food Freshness Scanner Viewport -->
+  <rect x="65" y="80" width="270" height="230" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+  <!-- Target Reticle & Scanner Box -->
+  <rect x="85" y="95" width="230" height="130" rx="6" fill="#121215" stroke="#10b981" stroke-width="1.5" stroke-dasharray="6,4"/>
+  
+  <!-- Apple illustration inside scanner -->
+  <circle cx="200" cy="155" r="38" fill="#ef4444"/>
+  <path d="M198 118 Q202 125 198 132" fill="none" stroke="#78350f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M200 120 Q215 116 218 126 Q208 128 200 120 Z" fill="#22c55e"/>
+
+  <!-- Scanning ray beam -->
+  <line x1="86" y1="150" x2="314" y2="150" stroke="#34d399" stroke-width="2.5" opacity="0.8"/>
+
+  <!-- Detection Badge -->
+  <rect x="135" y="195" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.25)" stroke="#10b981" stroke-width="1"/>
+  <text x="200" y="210" fill="#a7f3d0" font-size="10" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">Apple • Fresh (98.4%)</text>
+
+  <!-- Freshness Score -->
+  <rect x="85" y="235" width="110" height="55" rx="6" fill="#27272a"/>
+  <text x="95" y="255" fill="#a1a1aa" font-size="9" font-family="system-ui, sans-serif">FRESHNESS SCORE</text>
+  <text x="95" y="278" fill="#34d399" font-size="18" font-weight="800" font-family="system-ui, sans-serif">A+ Grade</text>
+
+  <rect x="205" y="235" width="110" height="55" rx="6" fill="#27272a"/>
+  <text x="215" y="255" fill="#a1a1aa" font-size="9" font-family="system-ui, sans-serif">SHELF LIFE EST.</text>
+  <text x="215" y="278" fill="#38bdf8" font-size="16" font-weight="800" font-family="system-ui, sans-serif">6 - 8 Days</text>
+
+  <!-- Right: Model Parameters & Telemetry -->
+  <rect x="355" y="80" width="180" height="230" rx="8" fill="#18181b" stroke="#27272a" stroke-width="1"/>
+  <text x="370" y="106" fill="#f4f4f5" font-size="12" font-weight="bold" font-family="system-ui, sans-serif">Vision Model Insights</text>
+  <line x1="370" y1="116" x2="520" y2="116" stroke="#27272a" stroke-width="1"/>
+  
+  <rect x="370" y="128" width="150" height="38" rx="4" fill="#121215"/>
+  <text x="380" y="145" fill="#a1a1aa" font-size="9" font-family="system-ui, sans-serif">Model Inference Time</text>
+  <text x="380" y="159" fill="#38bdf8" font-size="11" font-weight="bold" font-family="system-ui, sans-serif">18ms (Real-time)</text>
+
+  <rect x="370" y="174" width="150" height="38" rx="4" fill="#121215"/>
+  <text x="380" y="191" fill="#a1a1aa" font-size="9" font-family="system-ui, sans-serif">Defect / Spoilage</text>
+  <text x="380" y="205" fill="#34d399" font-size="11" font-weight="bold" font-family="system-ui, sans-serif">0.0% Spoilage</text>
+
+  <rect x="370" y="235" width="150" height="45" rx="6" fill="#047857"/>
+  <text x="445" y="262" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle" font-family="system-ui, sans-serif">Safe for Consumption</text>
+</svg>
